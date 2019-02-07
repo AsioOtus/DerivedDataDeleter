@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F0241B7F220CA82400E27A89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0241B7E220CA82400E27A89 /* main.swift */; };
+		F0241B86220CAA5B00E27A89 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0241B85220CAA5B00E27A89 /* Log.swift */; };
+		F0241B8A220CC0EA00E27A89 /* Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0241B89220CC0EA00E27A89 /* Execute.swift */; };
+		F0241B8C220CC63400E27A89 /* Deleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0241B8B220CC63400E27A89 /* Deleter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		F0241B7B220CA82400E27A89 /* DerivedDataDeleter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DerivedDataDeleter; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0241B7E220CA82400E27A89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F0241B85220CAA5B00E27A89 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		F0241B89220CC0EA00E27A89 /* Execute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Execute.swift; sourceTree = "<group>"; };
+		F0241B8B220CC63400E27A89 /* Deleter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deleter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				F0241B7E220CA82400E27A89 /* main.swift */,
+				F0241B85220CAA5B00E27A89 /* Log.swift */,
+				F0241B89220CC0EA00E27A89 /* Execute.swift */,
+				F0241B8B220CC63400E27A89 /* Deleter.swift */,
 			);
 			path = DerivedDataDeleter;
 			sourceTree = "<group>";
@@ -118,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0241B86220CAA5B00E27A89 /* Log.swift in Sources */,
+				F0241B8A220CC0EA00E27A89 /* Execute.swift in Sources */,
 				F0241B7F220CA82400E27A89 /* main.swift in Sources */,
+				F0241B8C220CC63400E27A89 /* Deleter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

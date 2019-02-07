@@ -1,11 +1,6 @@
-//
-//  main.swift
-//  DerivedDataDeleter
-//
-//  Created by Ostap on 07/02/2019.
-//
-
-import Foundation
-
-print("Hello, World!")
-
+execute(
+	targetDirectoryPath: "/Users/Ostap/IT/XCode projects/",
+	ignoringDirectoriesNames: ["DerivedDataDeleter"],
+	maxDepthLevel: 5,
+	logs: true
+)
