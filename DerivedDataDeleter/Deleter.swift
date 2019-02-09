@@ -60,7 +60,7 @@ class Deleter {
 		}
 		
 		guard level <= maxDepthLevel else {
-			Log.warn("Max depth (\(maxDepthLevel)) reached", level)
+			Log.warn("Max level depth reached - \(maxDepthLevel)", level)
 			return
 		}
 		
@@ -77,8 +77,8 @@ class Deleter {
 	func deleteFoundDirectories () {
 		do {
 			try foundDirectories.forEach {
-				Log.directory("Delete " + $0.url.path, 0)
-				try fileManager.trashItem(at: $0.url, resultingItemURL: nil)
+				Log.directory("Deleting " + $0.url.path, 0)
+				try fileManager.removeItem(atPath: $0.url.path)
 			}
 		} catch {
 			Log.error(error.localizedDescription, 0)
